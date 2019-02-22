@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-namespace DoublyLinkedListImplementation
+namespace LinearDataStructuresImplementations
 {
     public class DoublyLinkedList<T> : IEnumerable<T>
     {
