@@ -6,7 +6,20 @@ namespace DoublyLinkedListImplementation
     {
         static void Main(string[] args)
         {
+            //Testing area for the collections.
             DoublyLinkedList<int> list = new DoublyLinkedList<int>();
+            ArrayStack<int> stack = new ArrayStack<int>();
+
+            stack.Push(1);
+            stack.Push(2);
+            stack.Push(3);
+            stack.Push(4);
+            stack.Push(5);
+
+            foreach (var number in stack)
+            {
+                Console.WriteLine(number);
+            }
 
             list.AddLast(5);
             list.AddLast(4);
