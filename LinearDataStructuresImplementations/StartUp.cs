@@ -17,10 +17,13 @@ namespace LinearDataStructuresImplementations
             linkedStack.Push(4);
             linkedStack.Push(5);
 
-            linkedStack.Pop();
-            linkedStack.Pop();
-            linkedStack.Pop();
+            //linkedStack.Pop();
+            //linkedStack.Pop();
+            //linkedStack.Pop();
 
+            var array = linkedStack.ToArray();
+
+            Console.WriteLine(string.Join(' ', array));
 
             foreach (var number in linkedStack)
             {

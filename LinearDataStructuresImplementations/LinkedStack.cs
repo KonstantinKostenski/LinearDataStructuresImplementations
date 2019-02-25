@@ -55,11 +55,10 @@ namespace LinearDataStructuresImplementations
         {
             var current = this.topNode;
             int index = 0;
-            T[] array = Array.Empty<T>();
+            T[] array = new T[this.nodeNumber];
 
-            while (current == null)
+            while (current != null)
             {
-                array = new T[this.nodeNumber];
                 array[index++] = current.Value;
                 current = current.Previous;
             }
